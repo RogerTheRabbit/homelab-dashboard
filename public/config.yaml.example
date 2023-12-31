@@ -1,0 +1,8 @@
+
+icons:
+  - name: DuckDuckGo
+    href: https://duckduckgo.com/
+    img: https://duckduckgo.com/static-assets/favicons/DDG-icon_256x256.png
+  - name: GitHub
+    href: https://github.com/RogerTheRabbit
+    img: https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg
