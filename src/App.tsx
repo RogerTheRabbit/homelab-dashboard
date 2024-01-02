@@ -11,7 +11,7 @@ type Icons = {
 function App() {
   const [icons, setIcons] = useState<[Icons]>();
   useEffect(() => {
-    fetch("/config.yaml")
+    fetch("config.yaml")
       .then((res) => res.text())
       .then((text) => {
         setIcons(parse(text).icons);
