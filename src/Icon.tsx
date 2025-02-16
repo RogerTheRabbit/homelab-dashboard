@@ -5,7 +5,7 @@ export type Props = {
 
 function Icon(props: Props) {
   return (
-    <a href={props.href} target="_BLANK">
+    <a href={props.href}>
       <div
         className="bg-zinc-800 hover:bg-zinc-700 rounded-3xl p-5 m-2.5 transition-colors duration-200 ease-in"
       >

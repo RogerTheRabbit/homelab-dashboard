@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 ## Getting started
 ```bash
-mv ./public/config.yaml.example ./public/config.yaml
+cp ./public/config.yaml.example ./public/config.yaml
 npm install
 npm run dev
 ```
