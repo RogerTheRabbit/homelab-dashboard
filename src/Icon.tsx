@@ -5,7 +5,7 @@ export type Props = {
 
 function Icon(props: Props) {
   const handleError = (e: any) => {
-    e.target.src = "homelab-dashboard/unavailable.svg";
+    e.target.src = "/homelab-dashboard/assets/unavailable.svg";
   };
 
   return (
