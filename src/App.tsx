@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen w-screen flex flex-wrap justify-center items-center bg-zinc-900 text-zinc-300">
+    <div className="min-h-screen w-screen flex flex-wrap justify-center items-center content-center bg-zinc-900 text-zinc-300">
       {icons?.map((icon, idx) => (
         <AnimatedIcon href={icon.href} img={icon.img} key={idx} />
       ))}
